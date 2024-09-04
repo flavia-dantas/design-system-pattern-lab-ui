@@ -32,6 +32,9 @@ const preview: Preview = {
         { name: 'light', value: '#ffffff' },
       ],
     },
+    docs: {
+      theme: themes.dark,
+    }
   },
 };
 
