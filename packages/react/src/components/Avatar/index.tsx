@@ -1,9 +1,9 @@
 /* eslint-disable prettier/prettier */
 import { User } from 'phosphor-react'
-import { AvatarContainer, AvatarFallback, AvatarImage } from "./styles"
+import { AvatarContainer, AvatarFallback, AvatarImage } from './styles'
 
 export interface AvatarProps
-  extends React.ComponentPropsWithoutRef<typeof AvatarImage> { }
+  extends React.ComponentPropsWithoutRef<typeof AvatarImage> {}
 
 export function Avatar(props: AvatarProps) {
   return (

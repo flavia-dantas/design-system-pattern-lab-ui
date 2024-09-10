@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { styled } from '../styles'
 
 export const TextArea = styled('textarea', {
@@ -31,4 +30,6 @@ export const TextArea = styled('textarea', {
 })
 
 export interface TextAreaProps
-  extends React.ComponentPropsWithoutRef<typeof TextArea> { }
+  extends React.ComponentPropsWithoutRef<typeof TextArea> {
+  as?: React.ElementType
+}
