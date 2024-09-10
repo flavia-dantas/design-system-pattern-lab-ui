@@ -8,6 +8,13 @@ export default {
     src: 'https://github.com/flavia-dantas.png',
     alt: 'Flavia',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
