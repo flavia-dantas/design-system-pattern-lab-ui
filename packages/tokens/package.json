@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@pattern-lab-ui/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/ts-config": "*",
+    "@pattern-lab-ui/eslint-config": "*",
+    "@pattern-lab-ui/ts-config": "*",
     "rollup": "^4.21.2",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4"
