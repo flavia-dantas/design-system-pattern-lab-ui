@@ -27,9 +27,5 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-  viteFinal: (config) => {
-    config.base = '/design-system-ignite/';
-    return config;
-  },
 };
 export default config;
