@@ -5,9 +5,4 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/design-system-ignite/', // Caminho base para o GitHub Pages
   plugins: [react()],
-  resolve: {
-    alias: {
-      '@assets': '/src/assets',
-    },
-  },
 });
