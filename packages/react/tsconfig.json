@@ -1,5 +1,12 @@
 {
   "extends": "@pattern-lab-ui/ts-config/react.json",
+  "compilerOptions": {
+    "jsx": "react-jsx", // Suporta React 17 ou React 18
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true, // Ignora erros de checagem em bibliotecas externas
+    "strict": true // Habilita checagem rigorosa para evitar erros de tipo
+  },
   "include": [
     "src"
   ]
