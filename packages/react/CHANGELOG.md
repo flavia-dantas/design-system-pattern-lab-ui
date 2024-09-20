@@ -1,5 +1,11 @@
 # @pattern-lab-ui/react
 
+## 2.1.2
+
+### Patch Changes
+
+- 0f5417b: Add initial README file with project overview and installation instructions
+
 ## 2.1.1
 
 ### Patch Changes

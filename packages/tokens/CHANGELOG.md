@@ -1,5 +1,11 @@
 # @pattern-lab-ui/tokens
 
+## 2.1.1
+
+### Patch Changes
+
+- 0f5417b: Add initial README file with project overview and installation instructions
+
 ## 2.1.0
 
 ### Minor Changes
