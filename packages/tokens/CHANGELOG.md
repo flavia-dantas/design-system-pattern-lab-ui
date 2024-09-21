@@ -1,5 +1,11 @@
 # @pattern-lab-ui/tokens
 
+## 2.1.2
+
+### Patch Changes
+
+- 760b761: added repository url, homepage and keywords to package.json for better project visibility
+
 ## 2.1.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @pattern-lab-ui/react
 
+## 2.1.3
+
+### Patch Changes
+
+- 760b761: added repository url, homepage and keywords to package.json for better project visibility
+
 ## 2.1.2
 
 ### Patch Changes
