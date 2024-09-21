@@ -19,7 +19,7 @@
 </div>
 
 ### Sobre
-Um Design System em React com tipografia, tokens de cor e componentes. O stoybook do projeto pode ser [acessado aqui](https://flavia-dantas.github.io/design-system-pattern-lab-ui/).
+Pattern Lab UI é um Design System em React que inclui tokens de design para tipografia e cores, além de uma biblioteca de componentes reutilizáveis. O projeto também conta com um [Storybook](https://flavia-dantas.github.io/design-system-pattern-lab-ui/) onde você pode visualizar todos os componentes disponíveis, suas variações
 
 ### Componentes
 
@@ -45,13 +45,13 @@ Um Design System em React com tipografia, tokens de cor e componentes. O stoyboo
 Instalar com [npm](https://www.npmjs.com/)
 
 Para os componentes:
-```
+```bash
 npm i @pattern-lab-ui/react
 ```
 
 Para Tokens:
 
-```
+```bash
 npm i @pattern-lab-ui/tokens
 ```
 
@@ -61,12 +61,13 @@ Criar um arquivo `global.ts` em `scr/styles/global.ts`
 
 Fazer o import:
 
-```
+
+```typescript
 import { globalCss } from "@pattern-lab-ui/react";
 ```
 
 Caso precise adicionar mais styles:
-```
+```typescript
 import { globalCss } from "@pattern-lab-ui/react";
 
 export const globalStyles = globalCss({
@@ -84,7 +85,7 @@ export const globalStyles = globalCss({
 ```
 
 Uso dos componentes:
-```
+```typescript
 import { Heading } from "@pattern-lab-ui/react";
 
 export default function Home() {
@@ -96,7 +97,7 @@ export default function Home() {
 Aplicando os styles no `App()` (arquivo `_app.tsx`)
 
 Exemplo utilizando Next `v14.2.12` e React `v18`,
-```
+```typescript
 import { globalStyles } from "@/styles/global";
 import type { AppProps } from "next/app";
 
