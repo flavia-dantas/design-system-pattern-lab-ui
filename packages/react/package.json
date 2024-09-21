@@ -11,6 +11,11 @@
   },
   "name": "@pattern-lab-ui/react",
   "version": "2.1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flavia-dantas/design-system-pattern-lab-ui/tree/main/packages/react"
+  },
+  "homepage": "https://flavia-dantas.github.io/design-system-pattern-lab-ui/",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -19,10 +24,18 @@
     "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
-  "keywords": [],
+  "keywords": [
+    "pattern-lab-ui",
+    "design system",
+    "design",
+    "components",
+    "storybook",
+    "react",
+    "next"
+  ],
   "author": "",
   "license": "MIT",
-  "description": "",
+  "description": "A React Design System",
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-checkbox": "^1.1.1",
