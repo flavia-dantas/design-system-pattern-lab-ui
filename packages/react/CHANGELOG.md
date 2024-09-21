@@ -1,5 +1,11 @@
 # @pattern-lab-ui/react
 
+## 2.1.4
+
+### Patch Changes
+
+- fb6130f: update README with detailed installation and usage instructions
+
 ## 2.1.3
 
 ### Patch Changes
