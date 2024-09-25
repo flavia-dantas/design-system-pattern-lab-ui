@@ -10,7 +10,7 @@
     "typescript": "^5.6.2"
   },
   "name": "@pattern-lab-ui/react",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/flavia-dantas/design-system-pattern-lab-ui/tree/main/packages/react"

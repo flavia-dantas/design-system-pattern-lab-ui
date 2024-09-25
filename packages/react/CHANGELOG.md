@@ -1,5 +1,11 @@
 # @pattern-lab-ui/react
 
+## 2.1.5
+
+### Patch Changes
+
+- ea4b498: add `containerProps` to `TextInput` for enhanced customization
+
 ## 2.1.4
 
 ### Patch Changes
